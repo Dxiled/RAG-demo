@@ -1,2 +1,3 @@
 # RAG-demo
-A demonstration of using foundation models for retrieval-augmented-generation with context highlighting.
+A demonstration of using foundation models for retrieval-augmented-generation with context highlighting. This notebook uses LangChain's HuggingFace Pipeline, which can load LLMs from [HuggingFace's Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard). 
+At the time of writing, [facebook/opt-iml-max-1.3b](https://huggingface.co/facebook/opt-iml-max-1.3b) is the top model in the ~1B category, which was chosen because of hardware limitations. 7B or 13B models will produce better results when used for RAG. A Mistral 7B model such as [lvkaokao/mistral-7b-finetuned-orca-dpo-v2](https://huggingface.co/lvkaokao/mistral-7b-finetuned-orca-dpo-v2) will produce excellent results on capable hardware.
